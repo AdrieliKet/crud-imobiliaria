@@ -1,8 +1,5 @@
 package com.imobil.apiimobiliaria.DTO;
 
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-
 import org.springframework.beans.BeanUtils;
 
 import com.imobil.apiimobiliaria.entity.Loteadora;

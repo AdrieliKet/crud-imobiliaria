@@ -35,4 +35,10 @@ public class TerrenoController {
 	public Terreno venderTerreno(@RequestBody Terreno terreno) {
 		return terrenoService.venderTerreno(terreno.getId(), terreno.getValorVenda());
 	}
+	
+	@GetMapping("/valorVendaTerreno/")
+	public void valorVendaTerreno(@RequestParam Double percentual, @RequestParam Long idLoteadora) {
+		terrenoService.valorVendaTerreno(idLoteadora, percentual);
+		  
+	}
 }

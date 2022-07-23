@@ -22,5 +22,5 @@ public class Loteadora implements Serializable{
     private String razaoSocial;
     private String endereco;
     private String telefone;
-    private String porcentagemComissao;
+    private Double porcentagemComissao;
 }
